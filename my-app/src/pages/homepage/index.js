@@ -43,7 +43,7 @@ const Homepage = ({ }) => {
       <div className="flex flex-col">
         {isVisible ?
           <div className={`${clickedPlay ? "animate-fadeout" : "hover:animate-pulse"}`} onAnimationEnd={handleFadeOut}>
-            <img src="/EYE'm-HUNGRY-logo-2.png" style={{ "width": "700px", "height": "500px" }} />
+            <img src="/images/EYE'm-HUNGRY-logo-2.png" style={{ "width": "700px", "height": "500px" }} />
           </div> :
           <div style={{ "width": "700px", "height": "500px" }} />
         }
