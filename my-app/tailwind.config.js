@@ -16,6 +16,21 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        'fadeout': 'fadeout 3000ms ease-in-out;',
+      }
+    },
+    keyframes: {
+      // Fade-out keyframes
+      'fadeout': {
+        '0%': {
+          opacity: 1,
+        },
+        '100%': {
+          opacity: 0,
+          display: 'none', // Hide the element after fading out
+        },
+      },
     },
   },
   plugins: [],
