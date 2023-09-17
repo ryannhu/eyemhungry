@@ -30,7 +30,7 @@ const Homepage = ({ }) => {
     setClickedPlay(true)
 
     setTimeout(() => {
-      router.push(`/game`);
+      router.push(`http://localhost:8000`);
     }, 2500);
   }
 
